@@ -1,0 +1,53 @@
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = resnet 
+ dogfile = dognames.txt
+
+Pet Image Label Dictionary has 4 key-value pairs.
+Below are 4 of them:
+ 1 key:                       dog2.jpg  label:                           
+ 2 key:                  kangaroo.jpeg  label:                           
+ 3 key:                       dog1.jpg  label:                           
+ 4 key:                      trump.jpg  label:                           
+
+     MATCH:
+
+                      dog2.jpg: 
+Real:                              Classifier:                          boxer
+
+                 kangaroo.jpeg: 
+Real:                              Classifier:        wallaby, brush kangaroo
+
+                      dog1.jpg: 
+Real:                              Classifier:                          boxer
+
+                     trump.jpg: 
+Real:                              Classifier:                    windsor tie
+
+ NOT A MATCH:
+
+# Total Images 4 # Matches: 4 # NOT Matches: 0
+
+     MATCH:
+
+                      dog2.jpg: 
+Real:                              Classifier:                          boxer  
+PetLabelDog: 0  ClassLabelDog: 1
+
+                 kangaroo.jpeg: 
+Real:                              Classifier:        wallaby, brush kangaroo  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                      dog1.jpg: 
+Real:                              Classifier:                          boxer  
+PetLabelDog: 0  ClassLabelDog: 1
+
+                     trump.jpg: 
+Real:                              Classifier:                    windsor tie  
+PetLabelDog: 0  ClassLabelDog: 0
+
+ NOT A MATCH:
+
+# Total Images 4 # Matches: 4 # NOT Matches: 0
+
+ ** Statistics from calculates_results_stats() function:
